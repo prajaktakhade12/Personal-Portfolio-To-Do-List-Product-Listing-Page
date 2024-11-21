@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced To-Do List</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>My To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <button onclick="addTask()">Add Task</button>
+        <button onclick="retrieveDeletedTasks()">Retrieve Deleted Tasks</button>
+        <button onclick="deleteAllTasks()">Delete All Tasks</button>
+        <ul id="taskList"></ul>
+        <h3>Deleted Tasks</h3>
+        <ul id="deletedTaskList"></ul>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
